@@ -1,0 +1,80 @@
+/* -------------------------------------------
+*  CSS file for Librobox v3 Super Flat theme
+*  Author: Eduardo Robles
+*  Keybase: eduardorobles
+*  Website: http://eduardorobles.com/
+*  Color palatte from: flatuicolors.com
+ -------------------------------------------*/
+
+
+/* Outline-----------------------------------
+1. Imports
+2. Base style
+3. Structure
+4. Media Queries
+ -------------------------------------------*/
+/*Imports*/
+@import "ibm-type.css";
+
+/*Base style*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+body{
+  background-color: #ecf0f1;/*clouds*/
+  color: #000000;
+  font-family: 'IBM Plex Mono', normal;
+}
+
+/* Structure---------------------------------
+1. Main container
+ -------------------------------------------*/
+
+
+/*Main Container*/
+p{
+  color: #000000;
+}
+
+.container-main {
+  margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+/*Home Container*/
+#container-home {
+  background-color: #2ecc71;/*emerald*/
+  padding: 100px 20px 20px 20px;
+  /*box-shadow: 7px 7px 5px #bdc3c7;*/
+}
+
+#container-home p{
+  color:#2c3e50;/*midnight blue*/
+}
+
+a.home-links{ text-decoration: none; color: #2c3e50;}/*midnight blue*/
+a.home-links:visited{color:#95a5a6;}/*concrete grey*/
+a.home-links:hover{text-decoration: underline; color:#95a5a6;}/*concrete grey*/
+
+#banner{
+  color: #2c3e50; /*midnight blue*/
+}
+
+#banner-nav p{
+  font-size: 16px;
+  color: #2c3e50; /*midnight blue*/
+}
+
+#footer-txt{
+  color: #2A1BFF;
+}
+
+}
